@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: './',
+  base: '/Song_Visualization/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
